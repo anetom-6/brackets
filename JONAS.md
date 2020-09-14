@@ -149,5 +149,11 @@ Extensions som kommer installerade i brackets. Kommer inte gå igenom alla dom.
 - [npm-install.js](tasks/npm-install.js)
   * Hämtar och installerar Node package manager, samt extensions till det
 - [pack-web-dependencies.js](tasks/pack-web-dependencies.js)
-  *
+  * Använder Webpack (https://webpack.js.org/) på saker som används i webläsaren, så som node modules
+- [test.js](tasks/test.js)
+  * Används för testning av mjukvaran. Kräver att Grunt, child_process, q, child_process_exec och xmldc
+- [update-release-number.js](tasks/update-release-number.js)
+  * Kräver Grunt och semver. Uppdaterar versionsnumret i JSON-filen
+- [write-config.js](write-config.js)
+  * Kräver Grunt från /build och /lib.common. Sätter ihop jason från package och src/brackets.config för att sedan skriva till src/config.json
   

@@ -157,3 +157,10 @@ Extensions som kommer installerade i brackets. Kommer inte gå igenom alla dom.
 - [write-config.js](write-config.js)
   * Kräver Grunt från /build och /lib.common. Sätter ihop jason från package och src/brackets.config för att sedan skriva till src/config.json
   
+# Tools
+ -[setup_for_hacking.bat]
+ * Ändrar bracket src till developer src, för testing av developer bracket
+
+ -[restore_installed_build.bat/.sh]
+ * Återställer ändringar som set_up_for_hacing gjorde
+ 

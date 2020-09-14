@@ -134,3 +134,20 @@ Extensions som kommer installerade i brackets. Kommer inte gå igenom alla dom.
   * Håller all information om en fil. Som hur stor den är, när den skapades mm.
 - [WatchedRoot.js](src/filesystem/WatchedRoot.js)
   * 
+  
+# Samples 
+- [Getting started](smaples)
+  * Hanledning hur man kommer igång på flera olika språk
+  
+# Tasks
+- [common.js](tasks/lib/common.js)
+  * Tar reda på om det är Windows, Mac eller Linux oxh skapar sedan en JSON-fil där den infon lagras
+- [build.js](tasks/build.js)
+  * Ser ut att jämföra den lokala head-filen med de på GIT och letar om branchnamnet existerar. Checkar sedan om om filen är CLA-registrerad. Om inte, blir den     nekad. I korta drag ser den ut att titta om allt är enligt standard innan man får ladda upp den.
+- [CLA-exception]
+  * Antar att den inte checkar om CLA existerar på de användarna i listan
+- [npm-install.js](tasks/npm-install.js)
+  * Hämtar och installerar Node package manager, samt extensions till det
+- [pack-web-dependencies.js](tasks/pack-web-dependencies.js)
+  *
+  

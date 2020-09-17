@@ -164,3 +164,21 @@ Extensions som kommer installerade i brackets. Kommer inte gå igenom alla dom.
  -[restore_installed_build.bat/.sh]
  * Återställer ändringar som set_up_for_hacing gjorde
  
+ # Tools
+ - [restore_installed_build.bat](tools/restore_installed_build.bat)
+  * Används när man vill använda Brackets som vanligt istället för i developer mode
+  
+ - [restore_installed_build.sh](tools/restore_installed_build.sh)
+  * Används när man vill använda Brackets som vanligt istället för i developer mode
+  
+ - [setup_for_hacking.bat](tools/setup_for_hacking.bat)
+  * Används för att ställa in i "developer mode"
+ 
+ - [setup_for_hacking.sh](tools/setup_for_hacking.sh)
+  * Används för att ställa in i "developer mode"
+
+ - [setup_server_smokes.bat](tools/setup_server_smokes.bat)
+  * Används för att starta en lokal server för att komma åt Brackets server smoke test fil från GitHub
+  
+ - [setup_server_smokes.sh](tools/setup_server_smokes.sh)
+  * Används för att starta en lokal server för att komma åt Brackets server smoke test fil från GitHub

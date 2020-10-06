@@ -727,7 +727,9 @@ define(function (require, exports, module) {
 
     function _launchFind() {
         var editor = EditorManager.getActiveEditor();
-
+        if(findBar){
+            return
+        }
         if (editor) {
             // Create a new instance of the search bar UI
             clearSearch(editor._codeMirror);
